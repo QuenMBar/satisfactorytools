@@ -19,10 +19,3 @@ resource_df = sr.parse_data_resource()
 print(resource_df.head())
 recipe_df = sr.parse_data_recipe()
 print(recipe_df.head())
-
-# sr = SatisfactoryRecipes()
-# print(sr.find_class(NativeClass.Recipe))
-
-# Given a end product, create a data frame mapping out what the process for it would be.
-
-# sr.datamineDependents("Uranium Fuel Rod")
