@@ -18,7 +18,7 @@ class Scraper:
         self.dataframe = pd.DataFrame()
 
     def parse_float_from_string(self, s):
-        match = re.search(r"[-+]?\d*\.\d+|\d+", s)
+        match = re.search(r"[-+]?\d*\.\d+|[-+]?\d+", s)
         if match:
             return float(match.group())
         return None
@@ -121,7 +121,7 @@ class Scraper:
                 print(f"Row {index} has missing values.")
                 print(row)
                 return False
-            if row["item_name"] in ("Water", "Plutonium Waste", "Uranium Waste"):
+            if row["item_name"] in ("Water"):
                 continue
             if not (round(row["total_production"], 4) == round(row["total_consumption"] + row["net_total"], 4)):
                 print(f"Row {index} has inconsistent totals.")
@@ -133,14 +133,14 @@ class Scraper:
             for i in range(30):
                 if f"input_{i}_type" not in row or pd.isnull(row[f"input_{i}_type"]):
                     break
-                if row[f"input_{i}_type"] in ("Input", "Raw", "production"):
+                if row[f"input_{i}_type"] in ("Raw", "production"):
                     total_in += row[f"input_{i}_amount"]
                 elif row[f"input_{i}_type"] == "consumption":
                     total_out += row[f"input_{i}_amount"]
 
             total_in = round(total_in, 4)
             total_out = round(total_out, 4)
-            if not (total_in == row["total_production"] and total_out == (row["total_consumption"])):
+            if not ((total_in == row["total_production"]) and total_out == (row["total_consumption"])):
                 print(f"Row {index} has inconsistent input/output totals.")
                 print(row)
                 print(total_in, total_out)

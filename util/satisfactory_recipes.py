@@ -12,7 +12,7 @@ class SatisfactoryRecipes:
         self.recipe_df = pd.DataFrame()
 
     def parse_float_from_string(self, s):
-        match = re.search(r"[-+]?\d*\.\d+|\d+", s)
+        match = re.search(r"[-+]?\d*\.\d+|[-+]?\d+", s)
         if match:
             return float(match.group())
         return None
