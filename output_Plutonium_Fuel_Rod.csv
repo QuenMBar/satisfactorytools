@@ -1,0 +1,52 @@
+Recipe,Result_Name_0,Result_Ammount_0,Result_Name_1,Result_Ammount_1,Input_Name_0,Input_Ammount_0,Input_Name_1,Input_Ammount_1,Input_Name_2,Input_Ammount_2,Input_Name_3,Input_Ammount_3
+Alternate: Plutonium Fuel Unit,Plutonium Fuel Rod,15.0,,0.0,Encased Plutonium Cell,300.0,Pressure Conversion Cube,15.0,,0.0,,0.0
+Encased Plutonium Cell,Encased Plutonium Cell,300.0,,0.0,Plutonium Pellet,600.0,Concrete,1200.0,,0.0,,0.0
+Plutonium Pellet,Plutonium Pellet,600.0,,0.0,Non-Fissile Uranium,2000.0,Uranium Waste,500.0,,0.0,,0.0
+Non-Fissile Uranium,Non-Fissile Uranium,2000.0,Water,600000.0,Uranium Waste,1500.0,Silica,1000.0,Nitric Acid,600000.0,Sulfuric Acid,600000.0
+Raw or Input Uranium Waste,Uranium Waste,2000.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Distilled Silica,Silica,1000.0,Water,296296.2962962963,Dissolved Silica,444444.44444444444,Limestone,185.1851851851852,Water,370370.3703703704,,0.0
+Alternate: Quartz Purification,Quartz Crystal,555.5555555555555,Dissolved Silica,444444.44444444444,Raw Quartz,888.8888888888889,Nitric Acid,74074.07407407407,,0.0,,0.0
+Raw or Input Raw Quartz,Raw Quartz,888.8888888888889,,0.0,,0.0,,0.0,,0.0,,0.0
+Nitric Acid,Nitric Acid,794074.074074074,,0.0,Nitrogen Gas,3176296.296296296,Water,794074.074074074,Iron Plate,264.69135802469134,,0.0
+Raw or Input Nitrogen Gas,Nitrogen Gas,3176296.296296296,,0.0,,0.0,,0.0,,0.0,,0.0
+Raw or Input Water,Water,6404745.556912224,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Coated Iron Plate,Iron Plate,464.69135802469134,,0.0,Iron Ingot,232.34567901234567,Plastic,46.46913580246914,,0.0,,0.0
+Alternate: Pure Iron Ingot,Iron Ingot,2414.567901234568,,0.0,Iron Ore,1300.1519468186134,Water,742943.9696106364,,0.0,,0.0
+Raw or Input Iron Ore,Iron Ore,1300.1519468186134,,0.0,,0.0,,0.0,,0.0,,0.0
+Handler Plastic,Plastic,270.39770723104056,,0.0,,0.0,,0.0,,0.0,,0.0
+Raw or Input Limestone,Limestone,2525.185185185185,,0.0,,0.0,,0.0,,0.0,,0.0
+Sulfuric Acid,Sulfuric Acid,600000.0,,0.0,Sulfur,600.0,Water,600000.0,,0.0,,0.0
+Raw or Input Sulfur,Sulfur,600.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Wet Concrete,Concrete,1560.0,,0.0,Limestone,2340.0,Water,1950000.0,,0.0,,0.0
+Pressure Conversion Cube,Pressure Conversion Cube,15.0,,0.0,Fused Modular Frame,15.0,Radio Control Unit,30.0,,0.0,,0.0
+Alternate: Heat-Fused Frame,Fused Modular Frame,15.0,,0.0,Heavy Modular Frame,15.0,Aluminum Ingot,750.0,Nitric Acid,120000.0,Fuel,150000.0
+Alternate: Heavy Encased Frame,Heavy Modular Frame,15.0,,0.0,Modular Frame,40.0,Encased Industrial Beam,50.0,Steel Pipe,180.0,Concrete,110.0
+Modular Frame,Modular Frame,40.0,,0.0,Reinforced Iron Plate,60.0,Iron Rod,240.0,,0.0,,0.0
+Alternate: Stitched Iron Plate,Reinforced Iron Plate,60.0,,0.0,Iron Plate,200.0,Wire,400.0,,0.0,,0.0
+Alternate: Iron Wire,Wire,400.0,,0.0,Iron Ingot,222.22222222222223,,0.0,,0.0,,0.0
+Alternate: Steel Rod,Iron Rod,240.0,,0.0,Steel Ingot,60.0,,0.0,,0.0,,0.0
+Alternate: Solid Steel Ingot,Steel Ingot,60.0,,0.0,Iron Ingot,40.0,Coal,40.0,,0.0,,0.0
+Raw or Input Coal,Coal,40.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Encased Industrial Pipe,Encased Industrial Beam,50.0,,0.0,Steel Pipe,300.0,Concrete,250.0,,0.0,,0.0
+Alternate: Iron Pipe,Steel Pipe,480.0,,0.0,Iron Ingot,1920.0,,0.0,,0.0,,0.0
+Alternate: Pure Aluminum Ingot,Aluminum Ingot,1390.0,,0.0,Aluminum Scrap,2780.0,,0.0,,0.0,,0.0
+Alternate: Electrode Aluminum Scrap,Aluminum Scrap,2780.0,Water,973000.0,Alumina Solution,1668000.0,Petroleum Coke,556.0,,0.0,,0.0
+Alternate: Sloppy Alumina,Alumina Solution,1668000.0,,0.0,Bauxite,1390.0,Water,1390000.0,,0.0,,0.0
+Raw or Input Bauxite,Bauxite,1390.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Petroleum Coke,Petroleum Coke,556.0,,0.0,Heavy Oil Residue,185333.3333333333,,0.0,,0.0,,0.0
+Alternate: Heavy Oil Residue,Heavy Oil Residue,260333.3333333333,Polymer Resin,130.16666666666666,Crude Oil,195250.0,,0.0,,0.0,,0.0
+Raw or Input Crude Oil,Crude Oil,195250.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Diluted Fuel,Fuel,150000.0,,0.0,Heavy Oil Residue,75000.0,Water,150000.0,,0.0,,0.0
+Radio Control Unit,Radio Control Unit,30.0,,0.0,Aluminum Casing,480.0,Crystal Oscillator,15.0,Computer,30.0,,0.0
+Alternate: Alclad Casing,Aluminum Casing,480.0,,0.0,Aluminum Ingot,640.0,Copper Ingot,320.0,,0.0,,0.0
+Alternate: Pure Copper Ingot,Copper Ingot,803.0357142857142,,0.0,Copper Ore,321.2142857142857,Water,214142.85714285713,,0.0,,0.0
+Raw or Input Copper Ore,Copper Ore,321.2142857142857,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Insulated Crystal Oscillator,Crystal Oscillator,15.0,,0.0,Quartz Crystal,150.0,Rubber,105.0,AI Limiter,15.0,,0.0
+Handler Quartz Crystal,Quartz Crystal,150.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Handler Rubber,Rubber,285.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Plastic AI Limiter,AI Limiter,15.0,,0.0,Quickwire,225.0,Plastic,52.5,,0.0,,0.0
+Alternate: Fused Quickwire,Quickwire,1159.2857142857142,,0.0,Caterium Ingot,96.60714285714286,Copper Ingot,483.0357142857143,,0.0,,0.0
+Alternate: Pure Caterium Ingot,Caterium Ingot,96.60714285714286,,0.0,Caterium Ore,193.21428571428572,Water,193214.2857142857,,0.0,,0.0
+Raw or Input Caterium Ore,Caterium Ore,193.21428571428572,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Caterium Computer,Computer,30.0,,0.0,Circuit Board,120.0,Quickwire,420.0,Rubber,180.0,,0.0
+Alternate: Caterium Circuit Board,Circuit Board,120.0,,0.0,Plastic,171.42857142857142,Quickwire,514.2857142857142,,0.0,,0.0

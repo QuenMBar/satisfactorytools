@@ -23,3 +23,7 @@ print(recipe_df.head())
 
 c = Core(scraped_dataframe, resource_df, recipe_df)
 c.get_dependencies("Uranium Fuel Rod")
+c.get_dependencies("Plutonium Fuel Rod")
+
+
+# print(get_inputs_array("Copper Ingot", scraped_dataframe))

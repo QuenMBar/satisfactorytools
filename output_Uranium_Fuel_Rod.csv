@@ -1,0 +1,34 @@
+Recipe,Result_Name_0,Result_Ammount_0,Result_Name_1,Result_Ammount_1,Input_Name_0,Input_Ammount_0,Input_Name_1,Input_Ammount_1,Input_Name_2,Input_Ammount_2,Input_Name_3,Input_Ammount_3
+Alternate: Uranium Fuel Unit,Uranium Fuel Rod,50.400000000000006,,0.0,Encased Uranium Cell,1680.0,Electromagnetic Control Rod,168.0,Crystal Oscillator,50.400000000000006,Rotor,168.0
+Alternate: Infused Uranium Cell,Encased Uranium Cell,1680.0,,0.0,Uranium,2100.0,Silica,1260.0,Sulfur,2100.0,Quickwire,6300.0
+Raw or Input Uranium,Uranium,2100.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Distilled Silica,Silica,1260.0,Water,373333.3333333333,Dissolved Silica,560000.0,Limestone,233.33333333333331,Water,466666.6666666666,,0.0
+Alternate: Quartz Purification,Quartz Crystal,700.0,Dissolved Silica,560000.0,Raw Quartz,1120.0,Nitric Acid,93333.33333333333,,0.0,,0.0
+Raw or Input Raw Quartz,Raw Quartz,1120.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Nitric Acid,Nitric Acid,93333.33333333333,,0.0,Nitrogen Gas,373333.3333333333,Water,93333.33333333333,Iron Plate,31.11111111111111,,0.0
+Raw or Input Nitrogen Gas,Nitrogen Gas,373333.3333333333,,0.0,,0.0,,0.0,,0.0,,0.0
+Raw or Input Water,Water,4596786.324786325,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Coated Iron Plate,Iron Plate,31.11111111111111,,0.0,Iron Ingot,15.555555555555555,Plastic,3.111111111111111,,0.0,,0.0
+Alternate: Pure Iron Ingot,Iron Ingot,4474.555555555556,,0.0,Iron Ore,2409.376068376068,Water,1376786.3247863248,,0.0,,0.0
+Raw or Input Iron Ore,Iron Ore,2409.376068376068,,0.0,,0.0,,0.0,,0.0,,0.0
+Handler Plastic,Plastic,767.5111111111112,,0.0,,0.0,,0.0,,0.0,,0.0
+Raw or Input Limestone,Limestone,233.33333333333331,,0.0,,0.0,,0.0,,0.0,,0.0
+Raw or Input Sulfur,Sulfur,2100.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Fused Quickwire,Quickwire,9576.0,,0.0,Caterium Ingot,798.0,Copper Ingot,3990.0,,0.0,,0.0
+Alternate: Pure Caterium Ingot,Caterium Ingot,798.0,,0.0,Caterium Ore,1596.0,Water,1596000.0,,0.0,,0.0
+Raw or Input Caterium Ore,Caterium Ore,1596.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Alternate: Pure Copper Ingot,Copper Ingot,3990.0,,0.0,Copper Ore,1596.0,Water,1064000.0,,0.0,,0.0
+Raw or Input Copper Ore,Copper Ore,1596.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Electromagnetic Control Rod,Electromagnetic Control Rod,168.0,,0.0,Stator,252.0,AI Limiter,168.0,,0.0,,0.0
+Stator,Stator,252.0,,0.0,Steel Pipe,756.0,Wire,2016.0,,0.0,,0.0
+Alternate: Iron Pipe,Steel Pipe,756.0,,0.0,Iron Ingot,3024.0,,0.0,,0.0,,0.0
+Alternate: Iron Wire,Wire,2016.0,,0.0,Iron Ingot,1120.0,,0.0,,0.0,,0.0
+Alternate: Plastic AI Limiter,AI Limiter,218.4,,0.0,Quickwire,3276.0,Plastic,764.4000000000001,,0.0,,0.0
+Alternate: Insulated Crystal Oscillator,Crystal Oscillator,50.400000000000006,,0.0,Quartz Crystal,504.00000000000006,Rubber,352.80000000000007,AI Limiter,50.400000000000006,,0.0
+Handler Quartz Crystal,Quartz Crystal,504.00000000000006,,0.0,,0.0,,0.0,,0.0,,0.0
+Handler Rubber,Rubber,352.80000000000007,,0.0,,0.0,,0.0,,0.0,,0.0
+Rotor,Rotor,168.0,,0.0,Iron Rod,840.0,Screw,4200.0,,0.0,,0.0
+Alternate: Steel Rod,Iron Rod,1890.0,,0.0,Steel Ingot,472.5,,0.0,,0.0,,0.0
+Alternate: Solid Steel Ingot,Steel Ingot,472.5,,0.0,Iron Ingot,315.0,Coal,315.0,,0.0,,0.0
+Raw or Input Coal,Coal,315.0,,0.0,,0.0,,0.0,,0.0,,0.0
+Screw,Screw,4200.0,,0.0,Iron Rod,1050.0,,0.0,,0.0,,0.0
