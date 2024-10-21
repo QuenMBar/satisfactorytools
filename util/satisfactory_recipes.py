@@ -21,12 +21,14 @@ class SatisfactoryRecipes:
         new_dataframe = pd.DataFrame([data])
         if self.resource_df.empty:
             self.resource_df = new_dataframe
+            return
         self.resource_df = pd.concat([self.resource_df, new_dataframe], ignore_index=True)
 
     def db_append_recipe(self, data: dict) -> pd.DataFrame:
         new_dataframe = pd.DataFrame([data])
         if self.recipe_df.empty:
             self.recipe_df = new_dataframe
+            return
         self.recipe_df = pd.concat([self.recipe_df, new_dataframe], ignore_index=True)
 
     def parse_data_resource(self) -> pd.DataFrame:
