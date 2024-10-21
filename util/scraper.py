@@ -27,6 +27,7 @@ class Scraper:
         new_dataframe = pd.DataFrame([data])
         if self.dataframe.empty:
             self.dataframe = new_dataframe
+            return
         self.dataframe = pd.concat([self.dataframe, new_dataframe], ignore_index=True)
 
     def scrape_data(self) -> bool:
